@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+.square{
+    width:100px;
+    height:100px;
+    border: 1px solid #000;;
+}
+.message {
+  font: 700 20px/1.5 'Indie Flower', cursive;
+  color: green;
+  padding: 10px;
+  font-size: 24px;
+  border: 2px dotted black;
+}
+
+.play-again {
+    margin-top: -7px;
+    font: 400 23px/1.5 'Indie Flower', cursive;
+  }
+
+.play-again:hover {
+    background: #000;
+    font: 400 23px/1.5 'Indie Flower', cursive;
+    color: #fff;
+  }
+
+.play-again:active {
+    background: red;
+    font: 400 23px/1.5 'Indie Flower', cursive;
+    color: #fff;
+  }
+
+
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+.gameboard {
+    margin: 3% 36%;
+
+}
+
+#container{
+    text-align:center;
+}
+
+#board {
+    display: inline-block;
+    margin-top:2%;
+
+}
+.invisible {
+    visibility:hidden;
+}
+.visible {
+    visibility:visible;
+}
+.header {
+  font: 700 30px/1.5 'Indie Flower', cursive;
+  color: #000;
+}
+
+table {
+    background-color: #fff;
+    text-align:center;
+    font: 400 30px/1.5 'Indie Flower', cursive;
+    color: red;
+    border: 2px solid black;
+}
+p {
+    margin-left:25%;
+    margin-right:25%;
+    font: 700 20px/1.5 'Sigmar One', cursive;
+
+}
+
+.winning-square {
+  color: #fff;
+  background: red;
+}
